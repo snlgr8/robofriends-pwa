@@ -1,5 +1,6 @@
 import React from 'react';
- 
+import { shallow, mount, render } from 'enzyme';
+
 const Card = ({ name, email, id }) => {
   return (
     <div className='tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5'>
@@ -10,6 +11,6 @@ const Card = ({ name, email, id }) => {
       </div>
     </div>
   );
-}
+};
 
 export default Card;
